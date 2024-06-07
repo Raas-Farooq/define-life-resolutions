@@ -36,6 +36,7 @@ const deleteGoal = async(req,res) => {
 const addGoal = async(req,res) => {
 
     try{
+        
         console.log("add Gaol has Run");
         const newGoal = req.body;
         console.log("req.body.myGoal ", newGoal);
